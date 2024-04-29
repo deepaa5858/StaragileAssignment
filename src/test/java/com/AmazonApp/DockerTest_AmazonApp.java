@@ -19,17 +19,17 @@ public class DockerTest_AmazonApp {
 	public void browserTest(String bname) throws MalformedURLException, InterruptedException {
 		if (bname.equalsIgnoreCase("chrome")) {
 			ChromeOptions op = new ChromeOptions();
-			driver = new RemoteWebDriver(new URL("http://localhost:4444"), op);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/"), op);
 			System.out.println("Connection established with chrome browser");
 		}
 		if (bname.equalsIgnoreCase("firefox")) {
 			FirefoxOptions op = new FirefoxOptions();
-			driver = new RemoteWebDriver(new URL("http://localhost:4444"), op);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/"), op);
 			System.out.println("Connection established with chrome browser");
 		}
 		if (bname.equalsIgnoreCase("edge")) {
 			EdgeOptions op = new EdgeOptions();
-			driver = new RemoteWebDriver(new URL("http://localhost:4444"), op);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/"), op);
 			System.out.println("Connection established with chrome browser");
 		}
 		Thread.sleep(5000);

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 29 21:48:42 IST 2024</td>
+<td>Started on:</td><td>Tue Apr 30 01:11:14 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (33 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (69 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,11 +78,11 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.AmazonApp.DockerTest_AmazonApp.browserTest()'><b>browserTest</b><br>Test class: com.AmazonApp.DockerTest_AmazonApp</td>
 <td><div><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [browserTest] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+Parameter &apos;bname&apos; is required by @Test on method browserTest but has not been marked @Optional or defined
+in C:\Users\tirum\AppData\Local\Temp\testng-eclipse--16506957\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
 	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
@@ -107,13 +107,13 @@ For more information on native dependency injection please refer to https://test
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace136936250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace136936250'><pre>org.testng.TestNGException: 
-Cannot inject @Test annotated Method [browserTest] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+</pre></div><a href='#' onClick='toggleBox("stack-trace951050903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace951050903'><pre>org.testng.TestNGException: 
+Parameter &apos;bname&apos; is required by @Test on method browserTest but has not been marked @Optional or defined
+in C:\Users\tirum\AppData\Local\Temp\testng-eclipse--16506957\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
 	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
@@ -140,7 +140,7 @@ For more information on native dependency injection please refer to https://test
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.AmazonApp.DockerTest_AmazonApp@1aa7ecca</td></tr>
+<td>com.AmazonApp.DockerTest_AmazonApp@5b239d7d</td></tr>
 </table><p>
 </body>
 </html>

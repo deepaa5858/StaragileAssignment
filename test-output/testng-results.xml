@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T21:48:42 IST" name="Default suite" finished-at="2024-04-29T21:48:42 IST" duration-ms="33">
+  <suite started-at="2024-04-30T01:11:14 IST" name="Default suite" finished-at="2024-04-30T01:11:14 IST" duration-ms="69">
     <groups>
     </groups>
-    <test started-at="2024-04-29T21:48:42 IST" name="Default test" finished-at="2024-04-29T21:48:42 IST" duration-ms="33">
+    <test started-at="2024-04-30T01:11:14 IST" name="Default test" finished-at="2024-04-30T01:11:14 IST" duration-ms="69">
       <class name="com.AmazonApp.DockerTest_AmazonApp">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.AmazonApp.DockerTest_AmazonApp@1aa7ecca]" started-at="2024-04-29T21:48:42 IST" name="browserTest" finished-at="2024-04-29T21:48:42 IST" duration-ms="0" status="FAIL">
+        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.AmazonApp.DockerTest_AmazonApp@5b239d7d]" started-at="2024-04-30T01:11:14 IST" name="browserTest" finished-at="2024-04-30T01:11:14 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
-Cannot inject @Test annotated Method [browserTest] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+Parameter 'bname' is required by @Test on method browserTest but has not been marked @Optional or defined
+in C:\Users\tirum\AppData\Local\Temp\testng-eclipse--16506957\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [browserTest] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+Parameter 'bname' is required by @Test on method browserTest but has not been marked @Optional or defined
+in C:\Users\tirum\AppData\Local\Temp\testng-eclipse--16506957\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
 at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
 at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
 at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
